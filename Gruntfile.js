@@ -10,6 +10,11 @@ module.exports = function (grunt) {
                 files: {
                     './js/ngDialog.min.js': ['./js/ngDialog.js']
                 }
+            },
+            ngDialogExtension: {
+                files: {
+                    './js/ngDialogExtension.min.js': ['./js/ngDialogExtension.js']
+                }
             }
         },
         jshint: {
